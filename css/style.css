@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: belinda;
+    src: url(belinda.otf);
+}
+
+#header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+
+
+}
+
+.logo {
+    font-size: 52px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "belinda";
+    font-weight: 200;
+
+}
+
+ul {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 53px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
