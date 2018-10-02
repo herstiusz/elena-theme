@@ -56,5 +56,37 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+button {
+    margin: 60px auto;
+    display: block;
+    width: 240px;
+    height: 40px;
+    background-color: #50c3af;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+}
+button:hover{
+    background-color: #2d9684;
+    font-weight: 900;
+    transition: all 0.2s;
+    
 }
