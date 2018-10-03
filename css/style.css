@@ -23,6 +23,7 @@
     margin: 0 auto;
 
 
+
 }
 
 .logo {
@@ -68,6 +69,7 @@ p {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     padding: 20px;
+    /* margines wewnętrzny */
 }
 
 button {
@@ -84,9 +86,35 @@ button {
     color: rgb(255, 255, 255);
     transition: all 0.2s;
 }
-button:hover{
+
+button:hover {
     background-color: #2d9684;
     font-weight: 900;
     transition: all 0.2s;
-    
+}
+
+#second {
+    background-color: #eeeeef;
+    height: 590px;
+}
+
+.col {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: #40474e;
+    padding: 15px 0;
+}
+
+p2 {
+    font-size: 14px;
+    color: #787b80;
+    padding: 15px 0;
 }
