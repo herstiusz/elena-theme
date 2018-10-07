@@ -18,12 +18,10 @@
 
 }
 
-.container {
+.container{
     width: 800px;
     margin: 0 auto;
-
-
-
+    border: 1px solid red;
 }
 
 .logo {
@@ -95,7 +93,7 @@ button:hover {
 
 #second {
     background-color: #eeeeef;
-    height: 590px;
+    height: auto;
 }
 
 .col {
@@ -118,37 +116,44 @@ h3 {
     color: #787b80;
     padding: 15px 0;
 }
-#third{
+
+#third {
     background-color: white;
-    height: 590px;
+    height: 490px;
 }
-h4{
-   font-size: 18px;
+
+h4 {
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
     color: #40474e;
-    padding: 15px 0; 
+    padding: 15px 0;
     text-align: left;
 }
-.p3{
+
+.p3 {
     font-size: 14px;
     color: #787b80;
     padding: 15px 0;
     text-align: left;
 }
-.foto{
+
+.foto {
     display: inline-block;
     width: 300px;
     height: 150px;
     object-fit: cover;
+   
 }
-.col2{
-   display: inline-block; 
-   text-align: center; 
-    margin: 35px 20px 50px 20px;
+
+.col2 {
+    display: inline-block;
+    text-align: center;
+    margin: 55px 20px 50px 45px;
 }
+
 #third .but {
-    
+
     display: block;
     width: 100px;
     height: 40px;
@@ -161,5 +166,82 @@ h4{
     color: rgb(255, 255, 255);
     transition: all 0.2s;
     margin: 35px 0 50px 0;
-    
+
+}
+
+#fourth {
+    background-color: #eeeeef;
+    height: 300px;
+    text-align: left;
+
+}
+
+#fourth .but1 {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #eeeeef;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+    margin: 35px 0 35px 45px;
+}
+
+.p4 {
+    font-size: 14px;
+    color: #787b80;
+    margin: 35px 0 35px 45px;
+
+}
+
+h5 {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 35px 45px;
+
+}
+
+#fifth {
+    background-color: white;
+    height: auto;
+}
+
+.foto1 {
+    width: 150px;
+    height: 150px;
+}
+a{
+    color: #50c3af;
+    font-size: 12px;
+    text-decoration: none;
+}
+#sixthy{
+    background-color: #eeeeef;
+    height: auto;
+}
+#sixthy .but3{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #50c3af;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+    margin: 35px 0 35px 45px;
+}
+.col3{
+        display: inline-block;
+    width: 30%;
+    text-align: left;
+    padding: 25px 15px;
+    width: 49%;
 }
