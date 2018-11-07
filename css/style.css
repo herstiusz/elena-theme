@@ -10,6 +10,21 @@
     src: url(belinda.otf);
 }
 
+@font-face {
+    font-family: Entypo;
+    src: url(Entypo.otf);
+}
+
+@font-face {
+    font-family: NexaBold;
+    src: url(Nexa Bold.otf);
+}
+
+@font-face {
+    font-family: NexaLight;
+    src: url(Nexa Light.otf);
+}
+
 #header {
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
@@ -18,7 +33,7 @@
 
 }
 
-.container{
+.container {
     width: 800px;
     margin: 0 auto;
     border: 1px solid red;
@@ -143,7 +158,7 @@ h4 {
     width: 300px;
     height: 150px;
     object-fit: cover;
-   
+
 }
 
 .col2 {
@@ -215,16 +230,19 @@ h5 {
     width: 150px;
     height: 150px;
 }
-a{
+
+a {
     color: #50c3af;
     font-size: 12px;
     text-decoration: none;
 }
-#sixthy{
+
+#sixthy {
     background-color: #eeeeef;
     height: auto;
 }
-#sixthy .but3{
+
+#sixthy .but3 {
     display: block;
     width: 100px;
     height: 40px;
@@ -238,10 +256,86 @@ a{
     transition: all 0.2s;
     margin: 35px 0 35px 45px;
 }
-.col3{
-        display: inline-block;
+
+.col3 {
+    display: inline-block;
     width: 30%;
     text-align: left;
     padding: 25px 15px;
     width: 49%;
+}
+
+#seven {
+    background-color: white;
+    height: auto;
+}
+
+#seven .but3 {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #eeeeef;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+    margin: 35px 0 35px 45px;
+}
+
+#eight {
+    background-color: #50c3af;
+    height: 150px;
+    width: auto;
+}
+
+#eight li:first-child {
+    font-family: "belinda";
+    
+}
+
+#eight li:nth-child(2) {
+    font-family: "NexaLight";
+}
+
+#eight li:nth-child(3) {
+    font-family: 'Cabin', sans-serif;
+}
+
+#eight li:last-child {
+    font-family: "NexaBold";
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#footer {
+    background-color: #eeeeef;
+    height: 50px;
+    width: auto;
+}
+
+#footer span {
+    font-family: "Entypo";
+}
+
+div.social {
+    color: #b5b7b9;
+    float: right;
+}
+
+.icon-facebook,
+.icon-twitter {
+    font-size: 27px;
+}
+
+.icon-gplus {
+    font-size: 24px;
 }
